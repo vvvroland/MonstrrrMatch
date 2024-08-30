@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monstrrr Match</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="MonstrrrMatch.css".css">
+</head>
+<body>
+    <div class="hat">
+        <div class="feather">
+            <img class="icon" src="close_eclipse.jpg" alt="close_eclipse">
+            <h1 class="monster fs-1">Monstrrr Match</h2>
+            <img class="icon" src="close_eclipse.jpg" alt="close_eclipse">
+        </div>
+        <div class="nav" >
+            <button type="button" class="button fiddle btn-primary">SignUp</button>
+            <h3 onclick="smoothScroll()">How it Works</h3>
+            <div class="dropdown">
+                <button class="dropbtn"><h3>Safety Tips</h3></button>
+                <div class="dropdown-content">
+                    <a href="#">Shape Shifter</a>
+                    <a href="#">Dead/Undead</a>
+                    <a href="#">Demonic</a>
+                    <a href="#">Celestial</a>
+                    <a href="#">Cryptid</a>
+                    <a href="#">Cursed</a>
+                    <a href="#">Legendary</a>
+                    <a href="#">Incoporial</a>
+                    <a href="#">Other</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><h3>Resources</h3></button>
+                <div class="dropdown-content">
+                    <a href="#">Love Bites</a>
+                    <a href="#">Nec-Romance</a>
+                    <a href="#">Negotiations and Nuptuals</a>
+                    <a href="#">Embracing Enchantments</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><h3>Success Stories</h3></button>
+                <div class="dropdown-content">
+                    <a href="#">Morticia and Gomez</a>
+                    <a href="#">Vlad and Mina</a>
+                    <a href="#">Frankenstein and Francine</a>
+                    <a href="#">Beverly and Ronin</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><h3>Creature Types</h3></button>
+                <div class="dropdown-content">
+                    <a href="#">Shape Shifter</a>
+                    <a href="#">Dead/Undead</a>
+                    <a href="#">Demonic</a>
+                    <a href="#">Celestial</a>
+                    <a href="#">Cryptid</a>
+                    <a href="#">Cursed</a>
+                    <a href="#">Legendary</a>
+                    <a href="#">Incoporial</a>
+                    <a href="#">Other</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><h3>Careers</h3></button>
+                <div class="dropdown-content">
+                    <a href="#">Screeners</a>
+                    <a href="#">First Date Escorts</a>
+                    <a href="#">Web Master</a>
+                </div>
+            </div>
+            <button type="button" class="button btn-primary fiddle">SignIn</button>
+        </div> 
+    </div>   
+    <div class="pop">
+        <div class="message">
+            <h3 class="words">Because of their comparatively fragile nature, all humans must be screened and cleared before access to roster is granted.</h3>
+        </div>
+        <button id="accept" class="button btn-primary verstehen" onclick="disappear()">I Understand</button>
+    </div>
+    <div class="page">
+        <div class="screen">
+            <div class="arm">
+                <div class="shoulder left">
+                    <h3 class="collar" >Fun Fact Randomizer</h3>
+                    <p class="interesting" onclick="funFacts()">Please click hear for a fun fact about our diverse world.</p>
+                </div>
+                <div class="brachium left">
+                    <h3>Cons Of Dating...</h3>
+                    <select name="cons" id="cons" onchange="datingCons()" class="things maybe">
+                        <option value=""disabled selected>Creature</option>
+                        <option value="angels">Angels</option>
+                        <option value="demons">Demons</option>
+                        <option value="devils">Devils</option>
+                        <option value="djinn">Djinn</option>
+                        <option value="dragons">Dragons</option>
+                        <option value="dryads">Dryads</option>
+                        <option value="fae">Fae</option>
+                        <option value="furies">Furies</option>
+                        <option value="gargoyles">Gargoyles</option>
+                        <option value="ghosts">Ghosts</option>
+                        <option value="gorgons">Gorgons</option>
+                        <option value="griffin">Griffins</option>
+                        <option value="krakens">Krakens</option>
+                        <option value="mermaids">Mermaids</option>
+                        <option value="minotaur">Minotaur</option>
+                        <option value="nephilim">Nephilim</option>
+                        <option value="selkie">Selkie</option>
+                        <option value="shifters">Shifters</option>
+                        <option value="vampires">Vampires</option>
+                        <option value="werewolves">Werewolves</option>
+                    </select>
+                    <p class="space arrg">Select creature in drop down for information</p>
+                </div>
+                <div class="ante left">
+                    <h3>Pros of Dating...</h3>
+                    <select name="cons" id="pros" onchange="datingPros()" class="things maybe">
+                        <option value=""disabled selected>Creature</option>
+                        <option value="angels">Angels</option>
+                        <option value="demons">Demons</option>
+                        <option value="devils">Devils</option>
+                        <option value="djinn">Djinn</option>
+                        <option value="dragons">Dragons</option>
+                        <option value="dryads">Dryads</option>
+                        <option value="fae">Fae</option>
+                        <option value="furies">Furies</option>
+                        <option value="gargoyles">Gargoyles</option>
+                        <option value="ghosts">Ghosts</option>
+                        <option value="gorgons">Gorgons</option>
+                        <option value="griffin">Griffins</option>
+                        <option value="krakens">Krakens</option>
+                        <option value="mermaids">Mermaids</option>
+                        <option value="minotaur">Minotaur</option>
+                        <option value="nephilim">Nephilim</option>
+                        <option value="selkie">Selkie</option>
+                        <option value="shifters">Shifters</option>
+                        <option value="vampires">Vampires</option>
+                        <option value="werewolves">Werewolves</option>
+                    </select>
+                    <p class="space huzzah">Select creature in dropdown for information</p>
+                </div>
+            </div>
+            <div class="left trunk">
+                <h2 class="collar">Featured Suitors:</h2>
+                <!-- <img class="feature" src="kraken.jfif" alt="kraken"> -->
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="kraken2.avif" class="d-block w-100 annoyed" alt="kraken2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tim (Kraken)</h5>
+                                <p>Likes: Beaches and techno. Dislikes: Country, fried food, and fishnets.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="devil.jpg" class="d-block w-100 annoyed" alt="devil">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Luci (Devil)</h5>
+                                <p>Likes: Honesty, cruelty, and Rock and roll. Dislikes: Narcissists</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="dragon.jpg" class="d-block w-100 annoyed" alt="dragon">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Seraphina (Dragon)</h5>
+                                <p>Likes: Collecting and fire pits. Dislikes: Fishing and skiing.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="elf1.jpg" class="d-block w-100 annoyed"  alt="elf1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Lee (Elf)</h5>
+                                <p>Likes: Camping and hiking. Dislikes: Veganism and fireworks.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="lizard.jfif" class="d-block w-100 annoyed" alt="lizard">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ovid (Saurian)</h5>
+                                <p>Likes: Tunnels and conspiracies. Dislikes: Bureaucracy, winter, and sailing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="works left" id="trick" >
+            <h2 class="collar">How it Works</h2>
+            <div class="chest">
+                <div class="lung">
+                    <h4 class="steps">1. Contact</h4>
+                    <p>You submit the contact form below. You will receive an automatic email confirming our receipt of your interest which will include information for scheduling your screening.</p>
+                    <h4 class="steps">2. Screening and Background checks</h4>
+                    <p>We run a thorough background check and gather any physical, emotional, or mental items that may contraindicate contact with any of our suitors.</p>
+                    <p>Once this process is complete, you will be sent a link to create your profile.</p>
+                    <h4 class="steps">3. Assessment</h4>
+                    <p>After gathering details of your likes, dislikes, and other information, we create a list of potential suitors which can be viewed on your profile.</p>
+                </div>
+                <div class="lung">
+                    <h4 class="steps">4. Selection</h4>
+                    <p>Consultation with you discussing the potential suitors, removing those who hold no potential from your profile and you from theirs.</p>
+                    <h4 class="steps">5. In-House Meeting</h4>
+                    <p>If both parties agree, we schedule a supervised meeting between the two (or more) parties to verify mutual interest in a safe environment</p>
+                    <h4 class="steps">6. Exchange of Contact Information</h4>
+                    <p>Upon agreement from both parties, contact information is exchanged by our team. The rest is up to you.</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll">
+            <div class="matchmaker left">
+                <h3 class="meet">Meet the Matchmaker</h3>
+                <img class="me" src="FlowersMe.jpg" alt="FlowersMe" id="dazzle" onmouseover="blink()" onmouseout="back()">
+                <h5>We are all creatures in search of the people who make us feel most at home and I am more than honored to help people along to the place where they fit.</h5>
+            </div>
+            <div class="contact left">
+                <h3>Contact us for more information:</h3>
+                <form action="/process" method="post" class="form">
+                    <div class="collect"> 
+                        <label for="firstName">First name: </label>
+                        <input type="text" name="firstName" placeholder="Your First Name" class="things">
+                    </div>
+                    <div class="collect"> 
+                        <label for="lastName">Last name: </label>
+                        <input type="text" name="lastName" placeholder="Your Last Name" class="things">
+                    </div>
+                    <div class="collect"> 
+                        <label for="email">Email Address: </label>
+                        <input type="text" name="email" placeholder="Your Email Address" class="things">
+                    </div>
+                    <div class="collect"> 
+                        <label for="Phone">Phone Number: </label>
+                        <input type="tel" name="Phone" placeholder="012-345-6789" class="things" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div class="collect"> 
+                        <label for="birthDate">Birth Date: </label>
+                        <input type="date" name="birthDate" placeholder="012-345-6789" class="things">
+                    </div>
+                    <div class="collect"> 
+                        <label for="yourGender">Your Gender: </label>
+                        <select name="yourGender" id="seekingGender" placeholder="Your Gender" class="things">
+                            <option value=""disabled selected>Gender</option>
+                            <option value="woman">Woman</option>
+                            <option value="man">Man</option>
+                            <option value="nonBinary">Non-Binary</option>
+                            <option value="fluid">Fluid</option>
+                            <option value="agender">Agender</option>
+                            <option value="demi">Demigirl/Demiboy</option>
+                            <option value="secret">Undisclosed</option>
+                        </select>
+                    </div>
+                    <div class="collect"> 
+                        <label for="seekingGender">Seeking Gender: </label>
+                        <select name="seekingGender" id="seekingGender" aria-placeholder="Seeking Gender" class="things">
+                            <option value=""disabled selected>Gender</option>
+                            <option value="woman">Woman</option>
+                            <option value="man">Man</option>
+                            <option value="nonBinary">Non-Binary</option>
+                            <option value="fluid">Fluid</option>
+                            <option value="agender">Agender</option>
+                            <option value="demi">Demigirl/Demiboy</option>
+                            <option value="secret">Undisclosed</option>
+                        </select>
+                    </div>
+                    <div class="collect">
+                        <label for="yourCreature">Your Creature: </label>
+                        <select name="yourCreature" id="yourCreature" aria-placeholder="Your Creature" class="things">
+                            <option value=""disabled selected>Creature</option>
+                            <option value="shifter">Shape Shifter</option>
+                            <option value="dead">Dead/Undead</option>
+                            <option value="demonic">Demonic</option>
+                            <option value="celestial">Celestial</option>
+                            <option value="cryptid">Cryptid</option>
+                            <option value="cursed">Cursed</option>
+                            <option value="legendary">Legendary</option>
+                            <option value="incoporial">Incoporial</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="collect">
+                        <label for="seekingCreature">Your Creature: </label>
+                        <select name="seekingCreature" id="seekingCreature" aria-placeholder="Seeking Creature" class="things">
+                            <option value=""disabled selected>Creature</option>
+                            <option value="shifter">Shape Shifter</option>
+                            <option value="dead">Dead/Undead</option>
+                            <option value="demonic">Demonic</option>
+                            <option value="celestial">Celestial</option>
+                            <option value="cryptid">Cryptid</option>
+                            <option value="cursed">Cursed</option>
+                            <option value="legendary">Legendary</option>
+                            <option value="incoporial">Incoporial</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>     
+                </form>
+                <form action="?" method="POST" class="captcha">
+                    <div class="g-recaptcha" data-sitekey="#"></div>
+                    <input type="button" value="Submit" class="button btn-primary">
+                </form>
+                
+                <button type="button" class="button btn-primary" onclick="alert('Your information has been submitted. If you do not receive a confirmation of receipt email within the hour, please contact intake@monstrrr.com')">Submit Form</button>
+            </div>
+        </div>
+    </div>                    
+
+    <script src="MonstrrrMatch.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>

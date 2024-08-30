@@ -1,0 +1,271 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("cool_clouds.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.icon{
+    height: 5%;
+    width: 5%;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.monster{
+    color: mediumpurple;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.hat{
+    display: flex;
+    flex-direction: column;
+    height: 5%;
+}
+
+.feather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    height: 70%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    padding-top: 5px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: lightskyblue;
+    gap: 20px;
+}
+
+.dropbtn{
+    background-color: lightskyblue;
+    color: black;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: skyblue;
+    /* min-width: 160px; */
+    width: 100%;
+    z-index: 100;
+}
+
+.dropdown-content a{
+    color: indigo;
+    padding: 5px;
+    display: block;
+    text-decoration-color: lightskyblue;
+}
+
+.dropdown-content a:hover {background-color: aliceblue;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: skyblue;}
+
+
+.button{
+    background-color: indigo;
+    padding: 3px 5px;
+    border: 2px solid black;
+    color: whitesmoke;
+    font-style: bold;
+    border-radius: 5%;
+}
+
+.fiddle{
+    margin-top: -5px;
+}
+
+.page{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+    /* align-items: center; */
+}
+
+.pop{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkorchid;
+    align-items: center;
+    border: 2px solid black;
+    padding: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 25%;
+    position: fixed;
+    top: 25%;
+    z-index: 1000;
+}
+
+.verstehen{
+    padding: 3px 15px;
+    width: 200px;
+}
+
+.screen{
+    display: flex;
+    gap: 30px;
+}
+
+.arm{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.shoulder{
+    flex: 1;
+}
+
+.brachium{
+    flex: 2;
+}
+
+.ante{
+    flex: 2;
+}
+
+.things{
+    background-color: lightskyblue;
+    border: 2px solid indigo;
+    border-radius: 5%;
+}
+
+.space{
+    padding-top: 10px;
+}
+
+.trunk{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.left{
+    border: 3px solid lightskyblue;
+    color: indigo;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: mediumpurple;
+}
+
+.feature{
+    height: 90%;
+    width: 100%;
+}
+
+.carousel{
+    z-index: 1;
+}
+
+.annoyed{
+    height: 506px;
+}
+
+.chest{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.collar{
+    text-align: center;
+    color: midnightblue;
+    text-decoration-line: underline;
+    text-decoration-color: indigo;
+    text-decoration-style: wavy;
+}
+
+.lung{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps{
+    color: midnightblue;
+    padding-top: 10px;
+}
+
+.scroll{
+    display: flex;
+    gap: 30px;
+}
+
+.matchmaker{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    /* height: 20%;
+    width: 20%; */
+    border: 3px solid lightskyblue;
+    color: indigo;
+    background-color: mediumslateblue;
+    gap: 20px;
+    align-items: center;
+}
+
+.me{
+    border: 3px solid lightskyblue;
+    border-radius: 50%;
+    height: 100%;
+    width: 80%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -40px;
+    gap: 25px;
+}
+
+.contact{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid lightskyblue;
+    color: indigo;
+    gap: 5px;
+}
+
+.collect{
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.captcha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid indigo;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
